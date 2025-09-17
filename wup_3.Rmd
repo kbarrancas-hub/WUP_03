@@ -37,6 +37,12 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+I found that the middle section had the largest number of people (89), followed by the front (40) and the back (30). Still, the variation is the back is the greatest (12.58), compared with the front (3.81) and the middle (6.23)
+
 ## Inferential Tests
 
 ## Conclusions
