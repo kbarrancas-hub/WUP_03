@@ -60,4 +60,4 @@ At the 95% confidence level, I reviewed the intervals for Front-Back, Middle-Bac
 
 ## Conclusions
 
-
+In this lesson, I worked with categorical numerical data using Anova. Unlike before there are multiple categories so I used a helper file to guide me. The numerical results showed me that the middle row had the most with 89 people. While the back row had the highest variation of 12.58. The inferential results gave a very small P-value of 0.000116, showing a significant difference. A 95% confidence interval plot confirmed that the Front-Back and Middle-Back are significantly different, but the Middle-Front is not.
