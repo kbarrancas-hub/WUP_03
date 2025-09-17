@@ -50,7 +50,13 @@ model1 <- aov(alcohol~Seat,data=davisdata)
 summary.aov(model1)
 ```
 
-When looking at the p-value of 0.000116, I saw that it was really small, which shows me a strong statisical difference between the values. 
+When looking at the p-value of 0.000116, I saw that it was really small, which shows me a strong statistical difference between the values. 
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
+At the 95% confidence level, I reviewed the intervals for Front-Back, Middle-Back, & Middle-Front seat comparison. Where The Value of 0 shows whether the groups differ significantly. The results showed that Front-Back & Middle Back are significantly different, since the 0 dose not fall within their intervals. However, for the Middle-Front, 0 dose fall within the interval. Meaning there is no significant difference between the groups.
 
 ## Conclusions
 
